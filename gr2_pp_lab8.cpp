@@ -217,6 +217,9 @@ int main()
 	}
 
 	cout << "Suma: " << endl << suma(&tab1, &tab2) << endl << "Iloczyn: " << endl << iloczyn(&tab1, &tab2) << endl << "Roznica tab1[]: " << roznica(&tab1) << endl << "Roznica tab2[]: "<<roznica(&tab2)<<endl;
+
+	delete[] tab1;
+	delete[] tab2;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
